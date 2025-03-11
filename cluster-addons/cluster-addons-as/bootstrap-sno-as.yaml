@@ -8,7 +8,7 @@ spec:
   generators:
   - git:
       repoURL: https://github.com/solo0684/workshop-gitops-content-deploy.git
-      revision: sno-08-setup
+      revision: sno-06-setup
       files:
       - path: "cluster-definition/**/cluster.json"
   template:
@@ -18,7 +18,7 @@ spec:
       project: '{{project}}'
       source:
         repoURL: https://github.com/solo0684/workshop-gitops-content-deploy.git
-        targetRevision: sno-08-setup
+        targetRevision: sno-06-setup
         path: cluster-addons/charts/bootstrap-app
       destination:
         server: '{{cluster.address}}'
