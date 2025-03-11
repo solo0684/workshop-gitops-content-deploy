@@ -2,7 +2,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
-  name: bootstrap-sno-08
+  name: bootstrap-sno-06
   namespace: openshift-operators
 spec:
   generators:

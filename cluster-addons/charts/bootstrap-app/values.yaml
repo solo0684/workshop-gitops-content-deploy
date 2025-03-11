@@ -1,5 +1,5 @@
 clusters:
-  sno-08:
+  sno-06:
     applicationNamespace: openshift-gitops
     namespace: ''
     destination: 'https://kubernetes.default.svc'
